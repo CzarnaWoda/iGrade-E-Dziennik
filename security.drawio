@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-06-05T11:44:17.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="lkvP9vKn3-41C6rFmMPV" version="24.4.14" type="github">
+  <diagram name="Strona-1" id="VcAbDzV7k0KbWUNf9drI">
+    <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zptxeDCwNxD72GQTkWX6-1" value="CLIENT&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-3" value="GATEWAY" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zptxeDCwNxD72GQTkWX6-1" target="zptxeDCwNxD72GQTkWX6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="425" as="sourcePoint" />
+            <mxPoint x="90" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-5" value="BEARER TOKEN" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="zptxeDCwNxD72GQTkWX6-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-8" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-9" value="Spring Security" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zptxeDCwNxD72GQTkWX6-10" value="Validate token by o2auth Authorization Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
